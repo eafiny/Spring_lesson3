@@ -10,4 +10,22 @@ public class Product {
         this.title = title;
         this.cost = cost;
     }
+    public Product() {
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public int getCost() {
+        return cost;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 }
